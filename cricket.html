@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        .bat{
+            position: relative;
+            left: 300px;
+            transition: transform 4s ease-in-out 0.5s;
+        }
+        .bat:hover{
+            transform:rotate(-45deg);
+            transform-origin: 100% 0%;
+        }
+        .ball{
+            height: 19px;
+            width: 19px;
+            border: 1px solid brown;
+            background-color: brown;
+            border-radius: 9.5px;
+            position: relative;
+            left: 450px;
+            bottom: 95px;
+            transition: transform 3s ease-in-out .5s;
+        }
+        .fields:hover .ball{
+            transform: translate(400px,-100px);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="fields">
+        <img class="bat" src="bat.jpg" alt="">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
