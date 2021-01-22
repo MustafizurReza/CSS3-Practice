@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transformation</title>
+    <style>
+    .box{
+        height: 100px;
+        width: 100px;
+        border: 1px solid rebeccapurple;
+    }
+    .inner{
+        background-color: rosybrown;
+        transform: scale(.90) rotate(10deg);
+    }
+    .outer{
+        background-color: seagreen;
+    }
+    </style>
+</head>
+<body>
+    <h1>Transform</h1>
+    <div class="box outer">
+        <div class="box inner">box-1</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box-2</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box-3</div>
+    </div>
+</body>
+</html>
