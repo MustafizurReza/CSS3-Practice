@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ball Bounce</title>
+    <Style>
+        @keyframes slide{
+            0%{
+                left:0;
+                top:10px;
+            }
+            50%{
+                left:450px;
+                top:210px;
+            }
+            100%{
+                left:900px;
+                top:10px;
+            }
+        }
+        
+        .area{
+            height: 300px;
+            width: 1000px;
+            background-color: cadetblue;
+        }
+        .ball{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color:brown;
+            position: absolute;
+        }
+        .area:hover .ball{
+            animation: slide 3s ease-in-out 1s infinite alternate;
+        }
+    </Style>
+</head>
+<body>
+    <div class="area">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
