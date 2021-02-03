@@ -5,33 +5,47 @@
     <style>
         .container{
             display: grid;
-            grid-template-columns: 150px 150px 150px;
-            grid-gap: 30px;
-            
+            grid-template-columns: repeat(5,1fr);
+            grid-gap: 10px;
+
         }
-        .box{
-            border: 1px solid hotpink;
-            background-color: darkcyan;
+        .box-1{
+            grid-row: 1/4;
+        }
+        .boxes{
+            border: 1px solid cadetblue;
+            border-radius: 10px;
+            height: 50px;
+            width: 200px;
+            background-color: rosybrown;
+
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
-        <div class="box">5</div>
-        <div class="box">6</div>
-        <div class="box">7</div>
-        <div class="box">8</div>
-        <div class="box">9</div>
-        <div class="box">10</div>
-        <div class="box">11</div>
-        <div class="box">12</div>
-        <div class="box">13</div>
-        <div class="box">14</div>
-        <div class="box">15</div>
-    </div>
+    <main>
+        <article class="container">
+            <article class="boxes box-1">box-1</article>
+            <article class="boxes box-2">box-2</article>
+            <article class="boxes box-3">box-3</article>
+            <article class="boxes box-4">box-4</article>
+            <article class="boxes box-5">box-5</article>
+            <article class="boxes box-6">box-6</article>
+            <article class="boxes box-7">box-7</article>
+            <article class="boxes box-8">box-8</article>
+            <article class="boxes box-9">box-9</article>
+            <article class="boxes box-10">box-10</article>
+            <article class="boxes box-11">box-11</article>
+            <article class="boxes box-12">box-12</article>
+            <article class="boxes box-13">box-13</article>
+            <article class="boxes box-14">box-14</article>
+            <article class="boxes box-15">box-15</article>
+            <article class="boxes box-16">box-16</article>
+            <article class="boxes box-17">box-17</article>
+            <article class="boxes box-18">box-18</article>
+            <article class="boxes box-19">box-19</article>
+            <article class="boxes box-20">box-20</article>
+        </article>
+    </main>
 </body>
 </html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .box img{
+            width: 100%;
+            height: 900px;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box{
+            height: 900px;
+            width: 400px;
+            border: 4px solid tomato;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        .details{
+            position: absolute;
+            color:rosybrown;
+            height: 900px;
+            width: 400px;
+            top: 0;
+            display: none;
+        }
+        .details h1{
+            background-color: seagreen;
+            text-align: center;
+        }
+        .box:hover .details{
+            display: block;
+            background-color: rgb(135, 206, 235,0.4);
+        }
+        .box:hover img{
+            transform: scale(1.4);
+            transition: transform 4s ease-in-out 1s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gallery</h1>
+    <div class="container">
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cricket-stadium-vector.jpg" alt="">
+            <div class="details">
+                <h1>Venue image</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum obcaecati facilis iste adipisci, voluptatem consequuntur non aut provident ratione aliquid aspernatur ad dolore, numquam qui velit magni animi cumque saepe distinctio illum. Laborum, expedita nemo! Iste sint velit impedit distinctio vero consequatur ad quas at, ab molestias officia assumenda nobis odio dolorum, repellendus pariatur inventore corrupti non? Incidunt, molestiae veniam. Excepturi, voluptatibus! Laborum, quam. Ea iusto labore voluptatum odio voluptatibus hic quos cum voluptates assumenda. Fugit maiores possimus exercitationem mollitia consequuntur modi, quisquam ad nisi quam officia. Vitae tempore dolores facere. Facilis veritatis iure, minus porro reiciendis tempore quia repellat, nam aliquam odio qui culpa necessitatibus delectus cumque quasi soluta id nemo illo ad, libero laborum illum! Consectetur voluptatibus saepe perspiciatis, quisquam illum accusamus? Eaque beatae doloribus ut corporis magnam ad harum, distinctio sequi ab! Fugit dicta expedita nobis et ducimus maxime earum illo doloremque! Ratione ab error ut, accusantium commodi aut amet at blanditiis cupiditate ex vel voluptatibus aliquid facere? Itaque hic libero odio cupiditate, sit distinctio possimus quia fugit sequi inventore iure consectetur maiores dicta provident consequuntur voluptate dolor accusamus enim tempora illum. Labore repellat sint quod corrupti?</p>
+            </div>
+        </div>
+            
+        
+
+    </div>
+</body>
+</html>
